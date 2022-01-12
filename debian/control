@@ -1,0 +1,37 @@
+Source: mimalloc
+Priority: optional
+Maintainer: Gürkan Myczko <tar@debian.org>
+Build-Depends: debhelper-compat (= 13), cmake
+Standards-Version: 4.6.0
+Section: libs
+Homepage: https://github.com/microsoft/mimalloc
+Vcs-Browser: https://salsa.debian.org/debian/mimalloc
+Vcs-Git: https://salsa.debian.org/debian/mimalloc.git
+Rules-Requires-Root: no
+
+Package: libmimalloc-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libmimalloc2.0 (= ${binary:Version}), ${misc:Depends}
+Description: compact general purpose allocator with excellent performance (devel files)
+ This is a general purpose allocator with excellent performance characteristics.
+ Initially developed by Daan Leijen for the run-time systems of the Koka and
+ Lean languages.
+ .
+ It is a drop-in replacement for malloc and can be used in other programs
+ without code changes.
+ .
+ This package contains the development files.
+
+Package: libmimalloc2.0
+Architecture: any
+Multi-Arch: same
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: compact general purpose allocator with excellent performance
+ This is a general purpose allocator with excellent performance characteristics.
+ Initially developed by Daan Leijen for the run-time systems of the Koka and
+ Lean languages.
+ .
+ It is a drop-in replacement for malloc and can be used in other programs
+ without code changes.

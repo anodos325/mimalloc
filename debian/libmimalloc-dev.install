@@ -1,0 +1,3 @@
+usr/include/*
+usr/lib/*/lib*.so usr/lib/${DEB_HOST_MULTIARCH}/
+usr/share/mimalloc-2.0/cmake/*

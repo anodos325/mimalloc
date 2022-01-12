@@ -1,0 +1,5 @@
+mimalloc (2.0.3+ds-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #931079)
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 12 Jan 2022 13:10:57 +0100
