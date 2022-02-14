@@ -1,3 +1,9 @@
+mimalloc (2.0.3+ds-2) unstable; urgency=medium
+
+  * Fix FTBFS by linking atomic.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 14 Feb 2022 23:35:00 +0100
+
 mimalloc (2.0.3+ds-1) unstable; urgency=medium
 
   * Initial release. (Closes: #931079)
