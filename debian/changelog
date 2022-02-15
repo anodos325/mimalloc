@@ -1,3 +1,10 @@
+mimalloc (2.0.5+ds-1) unstable; urgency=medium
+
+  * New upstream release.
+  * d/copyright: update year.
+
+ -- Gürkan Myczko <tar@debian.org>  Tue, 15 Feb 2022 09:08:27 +0100
+
 mimalloc (2.0.3+ds-2) unstable; urgency=medium
 
   * Fix FTBFS by linking atomic.

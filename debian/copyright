@@ -5,7 +5,7 @@ Source: https://github.com/microsoft/mimalloc
 Files-Excluded: bin ide doc docs
 
 Files: *
-Copyright: 2018-2021 Microsoft Corporation, Daan Leijen
+Copyright: 2018-2022 Microsoft Corporation, Daan Leijen
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal
