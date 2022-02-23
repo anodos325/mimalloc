@@ -1,3 +1,9 @@
+mimalloc (2.0.5+ds-2) unstable; urgency=medium
+
+  * Strip mimalloc-2.0 from include installation path. (Closes: #1006249)
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 23 Feb 2022 21:33:01 +0100
+
 mimalloc (2.0.5+ds-1) unstable; urgency=medium
 
   * New upstream release.
