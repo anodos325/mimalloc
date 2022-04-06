@@ -1,3 +1,9 @@
+mimalloc (2.0.5+ds-3) unstable; urgency=medium
+
+  * Also ship cmake config files. (Closes: #1008993)
+
+ -- Gürkan Myczko <tar@debian.org>  Wed, 06 Apr 2022 12:27:44 +0200
+
 mimalloc (2.0.5+ds-2) unstable; urgency=medium
 
   * Strip mimalloc-2.0 from include installation path. (Closes: #1006249)
