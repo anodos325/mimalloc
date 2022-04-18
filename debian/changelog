@@ -1,3 +1,9 @@
+mimalloc (2.0.6+ds-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Gürkan Myczko <tar@debian.org>  Mon, 18 Apr 2022 12:18:05 +0200
+
 mimalloc (2.0.5+ds-3) unstable; urgency=medium
 
   * Also ship cmake config files. (Closes: #1008993)
