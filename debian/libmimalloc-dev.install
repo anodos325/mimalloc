@@ -1,5 +1,7 @@
-usr/include/*/* usr/include/
+usr/include/* usr/include/
+#usr/include/*/* usr/include/
 usr/lib/*/lib*.so usr/lib/${DEB_HOST_MULTIARCH}/
+usr/lib/*/cmake usr/lib/${DEB_HOST_MULTIARCH}/
 #usr/share/mimalloc-2.0/cmake/*
 #./cmake/mimalloc-config-version.cmake
 #./cmake/mimalloc-config.cmake

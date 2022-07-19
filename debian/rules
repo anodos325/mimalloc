@@ -20,8 +20,11 @@ endif
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-		-DMI_BUILD_STATIC=OFF \
-		-DMI_USE_LIBATOMIC=$(LIBATOMIC) \
+	-DMI_BUILD_STATIC=OFF \
+	-DMI_BUILD_OBJECT=OFF \
+	-DMI_BUILD_TESTS=OFF \
+	-DMI_INSTALL_TOPLEVEL=ON \
+	-DMI_USE_LIBATOMIC=$(LIBATOMIC) \
 
 override_dh_missing:
 	@echo ACK
